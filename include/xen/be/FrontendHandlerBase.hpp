@@ -113,6 +113,11 @@ public:
 	const std::string& getXsFrontendPath() const { return mXsFrontendPath; }
 
 	/**
+	 * Returns backend xen store base path
+	 */
+	const std::string& getXsBackendPath() const { return mXsBackendPath; }
+
+	/**
 	 * Returns reference to the xen store instance accociated with the frontend
 	 */
 	XenStore& getXenStore() {  return mXenStore; }
